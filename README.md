@@ -18,4 +18,4 @@ Website Url : https://samarthtsquare.com/
 
 ## Authors
 
-[@itsvinitjain](https://github.com/itsvinitjain)
+[@aniket-pa](https://github.com/aniket-pa/)
