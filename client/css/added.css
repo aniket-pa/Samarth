@@ -5,6 +5,12 @@
     /*background-color: rgb(58 54 54 / 43%);*/
     cursor: pointer;
 }
+/* .movingDiv img{
+    filter: grayscale(100%);
+}
+.movingDiv img :hover{
+    filter: grayscale(1%);
+} */
 
 
 .vl {
@@ -94,6 +100,13 @@
     max-height: 100%;
     max-width: 100%;
     right: 1px;
+    
+}
+.movingDiv{
+    filter: grayscale(100%);
+}
+.movingDiv:hover{
+    filter: grayscale(50%);
 }
 
 .project-content{
