@@ -36,12 +36,21 @@ const fifthBlogObject={
     2:'Here is where Samarth Builders comes into the picture. With substantial economical housing projects under development, this group is best placed to infiltrate an otherwise saturate market by offering buyers something nobody else can; Affordable housing. '
 }
 
+const sixthBlogObject={
+    1:'Agents/developers have taken advantage of this by selling flats on built-up and super-built-up areas arbitrarily, leaving the buyer unaware of the difference.',
+    2:'After RERA, properties cannot be sold based on super built-up areas. The buyers now pay the price on RERA carpet area only.',
+    3:'How can you verify the RERA carpet area? MahaRERAs website displays the "carpet area" of residential apartments within a project.',
+    4:'The real estate developer cannot change the carpet area without consent from appropriate authorities and primarily the buyers making it difficult to amend the plan.',
+    5:'Now you can take advantage of reduced prices by buying in an under-construction project thanks to RERA, which maintains transparency in the development process.'
+}
+
 const blogContentObject={
     'first':firstBlogObject,
     'second':secondBlogObject,
     'third':thirdBlogObject,
     'fourth':fourthBlogObject,
-    'fifth':fifthBlogObject
+    'fifth':fifthBlogObject,
+    'sixth':sixthBlogObject
 }
 
 const linkElementDetails={
@@ -50,6 +59,7 @@ const linkElementDetails={
     'thirdBlog':'third',
     'fourthBlog':'fourth',
     'fifthBlog':'fifth',
+    'sixthBlog':'sixth'
 }
 
 const linkRemoveElementDetails={
@@ -58,6 +68,7 @@ const linkRemoveElementDetails={
     'thirdElementRemove':'third',
     'fourthElementRemove':'fourth',
     'fifthElementRemove':'fifth',
+    'sixthElementRemove':'sixth'
 }
 
 
