@@ -33,7 +33,7 @@ $(function() {
         // if (next.index() == $(".item").last().index()) {
         //     $(".next").addClass('hide-nav');
         // }
-        if (next.index() === 3) {
+        if (next.index() === 2) {
             $(".next").addClass('hide-nav');
         }
          

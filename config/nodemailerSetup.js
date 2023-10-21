@@ -4,22 +4,16 @@ const dotenv = require('dotenv');
 dotenv.config();
 
  var transporter = nodemailer.createTransport({
-    host: 'mail.samarthtsquare.com',
+    host: 'server148.iseencloud.com',
     port: 465,
     secure: true,
     auth: {
-        user: '_mainaccount@samarthtsquare.com',
-        pass: '@oT88A7AbA!9is'
+        user: 'samartht@samarthtsquare.com',
+        pass:'uKJJq92R~EjD'
+        //pass: '@oT88A7AbA!9is'
     }
 });
 
-// var transporter = nodemailer.createTransport({
-//     service: 'hotmail',
-//     auth: {
-//       user: 'sunitaanilpatil@outlook.com',
-//       pass: 'DEC@3107042021'
-//     }
-//   });
 
   
 function sendEmail(mailOptions){

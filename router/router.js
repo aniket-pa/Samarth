@@ -2,6 +2,7 @@ const router = require('express').Router()
 const path = require('path')
 const sendEmail= require('../config/nodemailerSetup');
 
+
 // router.get('/', (req,res)=>{
 //     res.sendFile(path.join(__dirname,'../client/landingpage.html'))
 // })
@@ -38,9 +39,10 @@ router.get('/contact', (req,res)=>{
     res.sendFile(path.join(__dirname,'../client/contact.html'))
 })
 
-router.post('/contact', (req,res)=>{
+router.post('/contact', async (req,res)=>{
     
     const {name,email,phone,project,message} = req.body;
+
     
        const content= `<p>Dear Sir/Madam, </p>
         <table border="1"> 
@@ -80,6 +82,9 @@ router.post('/contact', (req,res)=>{
        .then(data => res.send({dataObject:data}))
        .catch(err => console.log(err) ); 
     //res.send({dataObject:true});
+
+
+    
 
 });
 
